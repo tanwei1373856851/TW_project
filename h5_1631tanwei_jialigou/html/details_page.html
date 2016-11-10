@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8" />
+		<title>嘉丽购商品详情页</title>
+		<link rel = "stylesheet" type = "text/css" href = "../css/details_page.css" />
+		<link rel = "stylesheet" type = "text/css" href = "../css/public.css" />
+		<script type = "text/javascript" src = "../js/jquery-1.10.1.min.js"></script>
+		<script type = "text/javascript" src = "../js/jquery.cookie.js"></script>
+		<script type = "text/javascript" src = "../js/details_page.js"></script>
+	</head>
+	
+	<body>
+		<!---head--->
+		<div class = "nav_whole">
+			<div class = "nav">
+				<div class = "nav_tel">
+					<p>电话热线</p>
+					<span>400-630-0077</span>
+				</div>
+				<p>
+					<a class = "login" href = "login.html">[登录]</a>
+					<a href = "register.html">[免费注册]</a>
+				</p>
+				<div class = "nav_right">
+					<a href = "#">我的嘉</a>
+					<a href = "#">我的订单</a>
+					<a href = "#">客服服务</a>
+					<a href = "#">电视会员激活</a>
+					<i></i>
+					<a href = "#">手机嘉丽购</a>
+				</div>
+			</div>
+		</div>
+		<!---search--->
+		<div class = "search_whole">
+			<a href = "#"><img src = "../img/jialigou.png" /></a>
+			<form >
+				<div class = "search_box">
+					<input placeholder="输入商品名称或电视商品编号" />
+					<button class = "btn">
+						<i></i>
+						搜索
+					</button>  
+				</div>
+			</form>
+			<div class = "shopping_box">
+				<span class = "shopping_cart">
+					<i class = "round">0</i>
+				</span>
+				<a href = "shopping_cart.html"><p>我的购物车</p></a>
+			</div>
+		</div>
+		<!---main_nav--->
+		<div class = "main_whole">
+			<div class = "main_nav">
+				<h2>全部商品分类</h2>
+				<ul>
+					<li><a href = "../index.html">首页</a></li>
+					<li>|</li>
+					<li><a href = "commodity_list.html">TV直播</a></li>
+					<li>|</li>
+					<li><a href = "commodity_list.html">佳丽全球购</a></li>
+					<li>|</li>
+					<li><a href = "commodity_list.html">水果生鲜</a></li>
+					<li>|</li>
+				</ul>
+				<p><i>订购热线</i> 400-630-0077</p>
+			</div>
+		</div>
+		<!---products_whole--->
+		<div class = "products_whole">
+			<div class = "products_whole_top">
+				<a class = "p_a_1" href = "commodity_list.html">
+					<b>服装、箱包</b>
+				</a>
+				<span> ></span>
+				<a class = "p_a_2" href = "commodity_list.html">
+					内衣
+					<span> ></span>
+				</a>
+				<span class = "span_1">浪莎天鹅绒防刮加裆连裤袜12+10超值组</span>
+			</div>
+			<div class = "products_whole_bottom">
+				<div class = "p_w_b_left">
+					<div class = "p_w_b_l_top">
+						<img class = "banner" src = "../img/1474624648366915027.jpg" />
+						<img id = "banner" src = "../img/1474624649276235020.jpg" />
+						<div class = "mask"></div>
+					</div>
+					<div class = "p_w_b_l_top_1">
+						<div id = "none">
+							<img class = "banner_1" src = "../img/1474624648366915027.jpg" />
+							<img id = "banner_1" src = "../img/1474624649276235020.jpg" />
+						</div>
+					</div>
+					<div class = "p_w_b_l_middle">
+						<img class = "img_1" src = "../img/1474624648366915027.jpg" />
+						<img class = "img_2" src = "../img/1474624649276235020.jpg" />
+					</div>
+					<div class = "p_w_b_l_bottom">
+						<i>分享到：</i>
+						<a href = "#"><img src = "../img/weixin.png"></a>
+						<a href = "#"><img src = "../img/qqspace.png"></a>
+						<a href = "#"><img src = "../img/sina.png"></a>
+						<a href = "#"><img src = "../img/microblog.png"></a>
+						<a href = "#"><img src = "../img/jia.png"></a>
+					</div>
+				</div>
+				<div class = "p_w_b_right">
+					<div class = "p_w_b_r_top">
+						<h2>浪莎天鹅绒防刮加裆连裤袜12+10超值组</h2>
+						<span>(供货号:20120109)</span>
+					</div>
+					<div class = "p_w_b_r_middle">
+						<ul>
+							<li>
+								<span>嘉丽价</span>
+								<i><span>¥</span><span id = li_i>199.00</span></i>
+							</li>
+							<li>
+								<span>促销优惠</span>
+							</li>
+							<div class = "box_ul">
+								<p>直播商品立减10元</p>
+								<p>微信支付立减20元</p>
+							</div>
+							<div class = "box_ul_1">
+								<span>积分</span>
+								<p>订购此商品可返回<i>137*2</i>积分</p>
+							</div>
+						</ul>
+					</div>
+					<div class = "p_w_b_r_middle_1">
+						<span>尺寸</span>	
+						<div class = "middle_1">
+							<ul>
+								<li class = "li_id">M/170/92A</li>
+								<li>L/175/96A</li>
+								<li>XL/180/100A</li>
+								<li>XXL/185/100A</li>
+							</ul>
+						</div>
+					</div>
+					<div class = "p_w_b_r_bottom">
+						<div class = "p_w_b_r_b_top">
+							<span>数量</span>
+							<div class = "minus">-</div>
+							<input class = "text" type = "text" value = "1" />
+							<div class = "add">+</div>
+							件
+						</div>
+						<div class = "p_w_b_r_b_bottom">
+							<button class = "btn" type = "button" >立即购买</button>
+							<button class = "btn_1" type = "button" >加入购物车</button>
+							<button class = "btn_2" type = "button" >收藏</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---match--->
+		<div class = "match_whole">
+			<div class = "match_whole_top">
+				<span>最佳搭配</span>
+			</div>
+			<div class = "match_whole_bottom">
+				<ul >
+					<!--<li>
+						<a href = "#"><img src = "../img/14773893281229264939.jpg" /></a>
+						<p><a href = "#">浪莎冰冻防刮包芯丝加裆连裤袜20+10+5超值组</a></p>
+						<i>¥199.00</i>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<!---commodity_introduce--->
+		<div class = "commodity_introduce">
+			<div class = "commodity_introduce_left">
+				<div class = "c_i_l_top">
+					<div>
+						<span>最近浏览</span>
+					</div>
+					<ul>
+						<li>
+							<a href = "#"><img src = "../img/1474624648366915027.jpg" /></a>
+							<p>浪莎天鹅绒防刮加裆连裤袜12+10超值组</p>
+							<i>¥199.00</i>
+						</li>
+						<li>
+							<a href = "#"><img src = "../img/14741871611396192993.jpg" /></a>
+							<p>浪莎高端专柜男士内衣6件组</p>
+							<i>¥199.00</i>
+						</li>
+					</ul>
+				</div>
+				<div class = "c_i_l_bottom">
+					<div>
+						<span>热销排行</span>
+					</div>
+					<ul>
+					<!--	<li></li>-->
+					</ul>
+				</div>
+			</div>
+			<div class = "commodity_introduce_right">
+				<div class = "c_i_r_top">
+					<ul>
+						<li  class = "red">商品介绍</li>
+						<li>商品参数</li>
+						<li>包装清单</li>
+						<li>商品评论</li>
+						<li>用户咨询</li>
+					</ul>
+				</div>
+				<div class = "c_i_r_bottom">
+					<ul>
+						<li><img src = "../img/5804a293e9a31.jpg" /></li>
+						<li><img src = "../img/5804a2944ca38.jpg" /></li>
+						<li><img src = "../img/5804a29485c1d.jpg" /></li>
+						<li><img src = "../img/5804a294b5999.jpg" /></li>
+						<li><img src = "../img/5804a294e7e24.jpg" /></li>
+						<li><img src = "../img/5804a295248ff.jpg" /></li>
+						<li><img src = "../img/5804a29553eac.jpg" /></li>
+						<li><img src = "../img/5804a29588273.jpg" /></li>
+						<li><img src = "../img/5804a295b7822.jpg" /></li>
+						<li><img src = "../img/5804a295ea47a.jpg" /></li>
+						<li><img src = "../img/5804a296234c0.jpg" /></li>
+						<li><img src = "../img/5804a296568e9.jpg" /></li>
+						<li><img src = "../img/5804a29684b0f.jpg" /></li>
+						<li><img src = "../img/5804a296b6f9a.jpg" /></li>
+						<li><img src = "../img/5804a296e903b.jpg" /></li>
+						<li><img src = "../img/5804a29723fc0.jpg" /></li>
+						<li><img src = "../img/5804a29753184.jpg" /></li>
+						<li><img src = "../img/5804a29784671.jpg" /></li>
+						<li><img src = "../img/diban.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!---foot_underline--->
+		<div class = "foot_underline"></div>
+		<!---foot_info--->
+		<div class = "foot_info"></div>
+		<!---foot_help--->
+		<div class = "foot_help">
+			<div class = "f_code"></div>
+			<div class = "f_help_list">
+				<div class = "f_h_list">
+					<strong>购物指南</strong>
+					<a href = "#">新用户注册/激活</a>
+					<a href = "#">如何订购</a>
+					<a href = "#">常见问题</a>
+				</div>
+				<div class = "f_h_list">
+					<strong>会员中心</strong>
+					<a href = "#">会员权益</a>
+					<a href = "#">美丽积分</a>
+					<a href = "#">订单查询</a>
+					<a href = "#">找回密码</a>
+				</div>
+				<div class = "f_h_list">
+					<strong>配送服务</strong>
+					<a href = "#">物流跟踪</a>
+					<a href = "#">免运费政策</a>
+				</div>
+				<div class = "f_h_list">
+					<strong>支付说明</strong>
+					<a href = "#">货到付款</a>
+					<a href = "#">在线支付</a>
+				</div>
+				<div class = "f_h_list">
+					<strong>售后服务</strong>
+					<a href = "#">退换货政策</a>
+					<a href = "#">退换货流程</a>
+					<a href = "#">安全与保密</a>
+				</div>
+			</div>
+			<div class = "f_h_call"></div>
+		</div>
+		<!----foot_copyright--->
+		<div class = "foot_copyright_whole">
+			<p>
+				<a href = "#">商城首页</a>|
+				<a href = "#">官网首页</a>|
+				<a href = "#">供应商登录</a>|
+				<a href = "#">供货联系</a>|
+				<a href = "#">收藏我们</a>|
+				<a href = "#">公司简介</a>|
+				<a href = "#">媒体报道</a>|
+				<a href = "#">嘉丽购招聘</a>|
+				<a href = "#">官方微博</a>|
+				<a href = "#">合作网站：范游网</a>
+			</p>
+			<div class = "f_c_W_center">
+				<p>嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved</p>
+				<p class = "f_c_w_c_number">
+					 国家广电总局批号：广局[2010] 278号
+					<a href = "#">湘ICP备10203162号-3</a>
+				</p>
+				<span>
+					<img src = "../img/pic.gif" />
+				</span>
+			</div>
+			<div class = "f_c_w_foot">
+				<img src = "../img/kx.jpg" />
+				<a href = "#"><img src = "../img/360.jpg" /></a>
+				<img src = "../img/alipay_s.gif" />
+				<a href = "#"><img src = "../img/hn110_s.gif" /></a>
+			</div>
+		</div>
+	</body>
+</html>

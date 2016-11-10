@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{ margin: 0; padding: 0;}
+img{ border: 0; display: block;}
+a{ text-decoration: none; color: #444444;}
+a:hover{text-decoration: underline; color: #e91456;}
+ul li{ list-style: none;}
+i{font-style: normal;}
+
+.nav,.search_whole,.main_nav,.broadcast_whole,.hot_sell,.ground_floor,.first_floor,.third_floor,.fourth_floor{width: 1190px; margin: 0 auto;}
+/*    nav    */
+.nav_whole{width: 100%; background: #F7F7F7; overflow: hidden; border-bottom: 1px solid #E8E8E7;}
+.nav .nav_tel{width: 240px; height: 36px; float: left;}
+.nav_tel p{line-height: 36px; background: url(../img/ind-tel.png) no-repeat left center; padding-left: 22px; font-size: 12px; color: #444444; float: left;}
+.nav_tel span{line-height: 36px; float: left; font-size: 10px; color: #E91456;}
+.nav p a{float: left; font-size: 12px; line-height: 36px;}
+.nav_right{float: right;}
+.nav_right i{display: inline-block; width: 18px; height: 18px; background: url(../img/ind-mobile.png); vertical-align: middle;}
+.nav_right a{font-size: 12px; line-height: 36px;}
+/*    search    */   
+.search_whole{margin-top: 10px; overflow: hidden; padding-bottom: 10px;}
+.search_whole img{float: left;}
+.search_whole form{float: left; margin-left: 219px; padding-top: 20px;}
+.search_whole form .search_box{border: 1px solid #E91456;}
+.search_whole form .search_box input{width: 320px; height: 30px; line-height: 30px; padding: 0; padding-left: 5px; font-size: 12px; border: 0; outline: none;}
+.search_whole form .btn{margin-left: -6px; font-size: 13px; height: 32px; line-height: 32px; border: 0; font-weight: bold; background: #e21357; color: #fff; outline: none; padding: 0 12px; cursor: pointer; vertical-align: middle;}
+.search_whole form .btn:hover{background: #cc1c23;}
+.search_whole form .btn i{background: url(../img/search.png); display: inline-block; height: 16px; width: 16px; vertical-align: middle; margin-right: 10px;}
+.shopping_box{width: 136px; height: 28px; line-height: 28px; margin: 20px 0 23px; padding: 0 10px; border: 1px solid #E8E8E7; float: right; cursor: pointer;}
+.shopping_box .shopping_cart{display: inline-block; width: 16px; height: 13px; margin-right: 25px; background: url(../img/cart.png) no-repeat; vertical-align: middle; position: relative;} 
+.shopping_cart .round{display: inline-block; height: 15px; line-height: 15px; width: 15px; font-size: 10px; position: absolute; top: -5px; right: -14px; text-align: center; background: url(../img/anniu.png) no-repeat; color: #fff; font-style: normal;} 
+.shopping_box p{font-size: 12px; color: #444444; float: right; padding-right: 35px;}   
+/*    main_nav    */
+.main_whole{width: 100%; border-bottom: 2px solid #E91455;}  
+.main_nav{overflow: hidden;}    
+.main_nav h2{width: 180px; height: 36px; line-height: 36px; color: #FFF; background: #E91455; font-size: 17px; font-weight: 800; padding-left: 10px; float: left;}    
+.main_nav ul{width: 670px; height: 34px; margin-left: 25px; float: left;}    
+.main_nav ul li{padding: 0 10px; float: left; line-height: 34px;}    
+.main_nav ul li a{float: left; font-size: 17px; font-weight: bolder; color: #444444;}  
+.main_nav ul li a:hover{text-decoration: none; color: #E91456;}
+.main_nav p{line-height: 34px; font-size: 9px; color: #EA1456;}   
+.main_nav p i{font-style: normal; color: #000; font-size: 12px; display: inline-block; font-weight: 600;}   
+/*    carousel    */     
+.carousel_whole{width: 100%; height: 480px; overflow: hidden; position: relative;}
+.carousel_whole .banner_img img{width: 100%; height: 480px;}
+.carousel_whole .banner_num_list{position: absolute; bottom: 10px; left: 580px;}   
+.banner_num_list li{float: left; width: 20px; height: 20px; border-radius: 50%;
+text-align: center; background: #1B1B1B; color: #FFFFFF; margin: 0 5px; cursor: pointer;}   
+.banner_num_list .active{color: #FFFFFF; background: #E91455;}
+.carousel_whole .banner_above_left{width: 190px; height: 480px; position: absolute; left: 37px; top: 0; background: #3B2C33;}
+.banner_above_left .b_a_l_info_1{height: 43px; padding: 14px 0 19px 10px;}
+.b_a_l_info_1 h2 a{height: 30px; line-height: 30px; font-size: 14px; color: #FFFFFF;}
+.b_a_l_info_1 p{overflow: hidden; height: 16px; line-height: 16px;}
+.b_a_l_info_1 p a{height: 16px; line-height: 16px; font-size: 12px; color: #FFFFFF;}
+.banner_above_left .b_a_l_info_2{height: 30px; padding: 4px 0 19px 10px;}
+.b_a_l_info_2 h2 a{height: 30px; line-height: 30px; font-size: 14px; color: #FFFFFF;}
+.b_a_l_info_2 .b_a_l_second{width: 570px; height: 480px; position: absolute; left: 190px; top: 0; background: white; display: none; filter: alpha(opacity=90); opacity: 0.9;}
+.b_a_l_second div{margin-left: 11px; height: 30px; line-height: 30px; font-size: 12px;}
+.b_a_l_second div a{font-weight: bold; color: #4D3B3B;}
+.b_a_l_second div span a{font-weight: normal; color: #352832;}
+.carousel_whole .banner_above_right{width: 190px; height: 480px; background: white; position: absolute; right: 30px; top: 0; filter: alpha(opacity=90); opacity: 0.9;}
+.banner_above_right .b_a_r_top h2{height: 43px; line-height: 43px; text-align: center; font-size: 16px; color: #EA1F5E;}   
+.banner_above_right .b_a_r_top span{margin-bottom: 10px; display: inline-block; font-size: 12px; color: #444444; margin-left: 59px;}
+.banner_above_right .b_a_r_top a img{width: 175px; height: 175px; margin: 0 auto; cursor: pointer; margin-bottom: 15px;}
+.banner_above_right .b_a_r_top .describe{padding: 5px;}
+.banner_above_right .b_a_r_top .describe a{font-size: 12px;}
+.banner_above_right .b_a_r_top .price{margin-top: 10px; font-size: 20px; color: #E91E5C; text-align: center; font-weight: bold;}     
+.banner_above_right .b_a_r_top .price i{margin-top: 6px; display: inline-block; font-size: 14px;}
+.banner_above_right .b_a_r_bottom{position: absolute; bottom: 25px; left: 18px;
+border-top: 1px solid #E6E6E5;}
+.banner_above_right .b_a_r_bottom h2{height: 43px; line-height: 43px; font-weight: bold; font-size: 16px; text-align: center; color: #E71C5B;}    
+/*    broadcast    */   
+.broadcast_whole .broadcast_top{width: 190px; height: 53px;}
+.broadcast_whole .broadcast_top li{float: left; width: 85px; height: 50px;
+line-height: 50px; text-align: center; font-size: 17px; color: #E91456; cursor: pointer;}
+.broadcast_whole{overflow: hidden;}      
+.broadcast_whole .broadcast_top .yesterday{color: #444444;}    
+.broadcast_whole a img{float: left;}    
+.broadcast_whole .broadcast_right{width: 998px; height: 330px; float: left; position: relative; overflow: hidden;}
+.broadcast_whole p{width: 28px; height: 62px; line-height: 62px; text-align: center; color: #FAEEDA; background: #BEBEBE;}
+.broadcast_right ul{width: 1996px;  height: 330px; position: relative;} 
+.broadcast_right .left{position: absolute; left: 15px; top: 134px; z-index: 10; cursor: pointer; display: none;}
+.broadcast_right .right{position: absolute; right: 17px; top: 134px; z-index: 10; cursor: pointer; display: none;} 
+.broadcast_right ul li{float: left; width: 228px; height: 328px; border: 1px solid #F8F8F8; margin-left: 15px; cursor: default; position:relative;}
+.broadcast_right ul li:hover{border: 1px solid #E8E8E7;}
+.broadcast_right ul li span{display: inline-block; padding: 5px; font-size: 12px; line-height: 13px; vertical-align: top; margin-left: 70px; color: #E91456;} 
+.broadcast_right ul li a img{width: 228px; height: 228px;}
+.broadcast_right ul li p{background: url(../img/miaosha.png) no-repeat; width: 30px; height: 36px; line-height: 36px; color: #ffffff; font-size: 12px; position:absolute; left: 10px;}
+.broadcast_right ul li div{margin-top: 243px;}
+.broadcast_right ul li div a{font-size: 12px; display: inline-block; padding: 5px;} 
+.broadcast_right ul li div i{font-size: 18px; padding: 5px; color: #EC1456; position: absolute; bottom: 0; left: 0;}    
+/*    hot_sell    */
+.hot_sell{overflow: hidden;}   
+.hot_sell h2{height: 52px; line-height: 52px; font-size: 17px; color: #444444; margin-left: 7px; font-weight: normal;}
+.hot_sell a img{padding-top: 2px; float: left;}       
+.hot_sell .hot_sell_right{width: 998px; height: 330px; float: left;}   
+.hot_sell_right ul li{width: 228px; height: 328px; border: 1px solid #F8F8F8; margin-left: 15px; float: left; position: relative;}
+.hot_sell_right ul li a img{width: 228px; height: 228px; padding: 0;}  
+.hot_sell_right ul li div{padding: 0 0 10px 0; position: absolute; bottom: 0; left: 0;}
+.hot_sell_right ul li div a{padding: 5px; font-size: 12px; width: 200px; overflow: hidden; white-space: nowrap; text-overflow: clip; display: inline-block;}
+.hot_sell_right ul li div p{padding: 5px; font-size: 14px; color: #E91456;}
+.hot_sell_right ul li div .piece{width: 98px; margin-left: 116px;}  
+.hot_sell_right ul li:hover{border: 1px solid #E8E8E7;}      
+/*    ground_floor    */
+.ground_floor{overflow: hidden;}    
+.ground_floor .a_1{background: url(../img/d.png) no-repeat left; width: 68px; height: 53px; line-height: 53px; font-size: 17px; font-weight: normal; padding-left: 48px; display: block;}
+.ground_floor .ground_floor_left{float: left;}
+.ground_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.ground_floor_left ul li{height: 40px; line-height: 40px;}
+.ground_floor_left ul li a{float: left; font-size: 12px; width: 58px;}
+.ground_floor .ground_floor_right{overflow: hidden;}
+.ground_floor_right a img{float: left;}
+.ground_floor_right ul li{float: left; width: 165px; height: 248px; padding: 5px; border: 1px solid #F8F8F8; margin-left: 16px; position: relative;}
+.ground_floor_right ul li:hover{border: 1px solid #E8E8E7;}
+.ground_floor_right ul li a img{width: 167px; height: 167px;}
+.ground_floor_right ul li .p_depict {width: 160px; height: 36px; padding: 5px; margin-top: 178px;}
+.ground_floor_right ul li .p_depict a{font-size: 12px;}
+.ground_floor_right ul li .p_price{padding: 5px; font-size: 15px; color: #E91456; position: absolute; bottom: 0;}
+/*    first_floor    */
+.first_floor{overflow: hidden;}    
+.first_floor .a_1{background: url(../img/floor2.png) no-repeat left; width: 68px; height: 53px; line-height: 53px; font-size: 17px; font-weight: normal; padding-left: 48px; display: block;}
+.first_floor .first_floor_left{float: left;}
+.first_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.first_floor_left ul li{height: 40px; line-height: 40px;}
+.first_floor_left ul li a{float: left; font-size: 12px; width: 58px;} .first_floor_left{float: left;}
+.first_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.first_floor_left ul li{height: 40px; line-height: 40px;}
+.first_floor_left ul li a{float: left; font-size: 12px; width: 58px;}
+/*    third_floor    */
+.third_floor{overflow: hidden;}
+.third_floor .third_floor_top{height: 69px; background: url(../img/floor3.png) no-repeat left;}
+.third_floor .third_floor_top .a_1{line-height: 69px; padding-left: 48px;}
+.third_floor .third_floor_top .a_2{padding-left: 20px;}  
+.third_floor .third_floor_left{float: left;}
+.third_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.third_floor_left ul li{height: 40px; line-height: 40px;}
+.third_floor_left ul li a{float: left; font-size: 12px; width: 58px;} .third_floor_left{float: left;}
+.third_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.third_floor_left ul li{height: 40px; line-height: 40px;}
+.third_floor_left ul li a{float: left; font-size: 12px; width: 58px;}
+/*    fourth_floor    */
+.fourth_floor{overflow: hidden; margin-bottom: 40px;}
+.fourth_floor .fourth_floor_top{height: 69px; background: url(../img/floor4.png) no-repeat left;}
+.fourth_floor .fourth_floor_top .a_1{line-height: 69px; padding-left: 48px;}
+.fourth_floor .fourth_floor_top .a_2{padding-left: 20px;}  
+.fourth_floor .fourth_floor_left{float: left;}
+.fourth_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.fourth_floor_left ul li{height: 40px; line-height: 40px;}
+.fourth_floor_left ul li a{float: left; font-size: 12px; width: 58px;} .fourth_floor_left{float: left;}
+.fourth_floor_left ul{width: 175px; height: 130px; padding: 0 5px 0 10px; background: #FDF4F7;}
+.fourth_floor_left ul li{height: 40px; line-height: 40px;}
+.fourth_floor_left ul li a{float: left; font-size: 12px; width: 58px;}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+       
+    
+    
+    

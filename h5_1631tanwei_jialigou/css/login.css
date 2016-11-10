@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{ margin: 0; padding: 0;}
+img{ border: 0; display: block;}
+a{ text-decoration: none; color: #444444;}
+a:hover{text-decoration: underline; color: #e91456;}
+ul li{ list-style: none;}
+i{font-style: normal;}
+
+.login_head_top,.login_body{width: 1200px; margin: 0 auto;}
+/*    login_head    */
+.login_head_whole{width: 100%; background: #F7F7F7; overflow: hidden; padding: 45px 0 50px;}
+.login_head_whole .login_head_top{overflow: hidden;}
+.login_head_top .l_h_t_logo img{float: left; cursor: pointer; margin-left: 5px;}
+.login_head_top span{float: left; line-height: 74px; font-size: 16px; color: #444444; font-weight: 600;} 
+.login_head_top span i{color: #c9c9c9; padding-right: 10px;}
+.login_head_top .l_h_t_right{float: right; margin-right: 10px; line-height: 74px; font-size: 12px;}
+.l_h_t_right a{color: #E91456;}
+/*    login_body    */
+.login_body_whole{width: 100%; background: #F7F7F7; padding-bottom: 22px; overflow: hidden;}
+.login_body_whole .login_body{overflow: hidden; background: #fff;}
+.login_body .login_body_left{float: left;}
+.login_body .login_body_right{float: right; width: 349px; height: 375px;}
+.l_b_r_top p{width: 275px; margin: 0 auto; background: red; line-height: 36px;}
+.l_b_r_top p span{float: left; font-size: 14px; color: #444444;}
+.l_b_r_top p a{float: right; color: #E91456; font-size: 12px;}
+.l_b_r_top .text{width: 276px; height: 32px; line-height: 32px; outline: none; border: 1px solid #A9A9A9; color: #A9A9A9; font-size: 12px; margin-left: 34px; padding-left: 1px;}
+.l_b_r_top .password{margin: 16px 0 16px 34px; width: 276px; height: 32px; line-height: 32px; outline: none; border: 1px solid #A9A9A9; color: #A9A9A9; font-size: 12px; padding-left: 1px;}
+.l_b_r_top .border{border: 1px solid blue;} /*.border js应用过来的*/
+
+.login_body_right .l_b_r_middle{padding: 15px 35px; position: relative;}
+.l_b_r_middle .code_1{width: 87px; height: 32px; line-height: 32px; outline: none; border: 1px solid #A9A9A9; float: left; padding-left: 35px; color: red; font-size: 20px; font-weight: 900;}
+.l_b_r_middle .code_3{position: absolute; left: 42px; top: 24px;}
+.l_b_r_middle .code_2{width: 95px; height: 36px; background: #E91455; color: #fff; font-size: 27px; text-align: center; line-height: 36px; float: left;}
+.l_b_r_middle .code_4{font-size: 14px;}
+.l_b_r_middle .code_4 i{color: blue; cursor: pointer;}
+.l_b_r_middle .hint{height: 20px; line-height: 20px; font-size: 12px; border: 1px solid red; background: #FFEBEB; color: red; position: absolute; top: 53px; display: none;}
+.login_body_right .l_b_r_middle_1{margin: 20px 35px 0 35px;}
+.l_b_r_middle_1 .checkbox{margin: 0; float: left;}
+.l_b_r_middle_1 .auto_login{float: left; font-size: 12px; color: #444444;}
+.l_b_r_middle_1 .find_password{float: left; margin-left: 11px; font-size: 12px;} 
+.l_b_r_middle_1 .submit{width: 279px; height: 32px; background: #E21357; line-height: 32px; text-align: center; font-size: 14px; color: #fff; outline: none; border: 0; margin-top: 11px; cursor: pointer;}
+.l_b_r_middle_1 .submit:hover{background: #cc1c23;}
+.login_body_right .l_b_r_bottom p{text-align: center; line-height: 36px; color: #444444; font-size: 12px; padding-top: 20px;}
+.l_b_r_bottom .solid{border-bottom: 1px solid #E8E8E7;}
+.l_b_r_bottom .qq_1{display: block; width: 60px; font-size: 12px; margin: 15px 0 0 107px; float: left;}
+.l_b_r_bottom .qq_1 img{width: 16px; height: 16px; float: left; margin-right: 5px;}
+.l_b_r_bottom .microblog_1{float: left;}
+.l_b_r_bottom .microblog_1 img{margin-top: 13px; margin-left: 10px;}
+
+
+
+
+
+
+
+
+

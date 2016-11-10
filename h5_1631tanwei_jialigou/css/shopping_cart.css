@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{ margin: 0; padding: 0;}
+img{ border: 0; display: block;}
+a{ text-decoration: none; color: #444444;}
+a:hover{text-decoration: underline; color: #e91456;}
+ul li{ list-style: none;}
+i{font-style: normal;}
+
+.nav,.guide,.commodity_list,.like_whole{width: 1190px; margin: 0 auto;}
+/*    nav    */
+.nav_whole{width: 100%; background: #F7F7F7; overflow: hidden; border-bottom: 1px solid #E8E8E7;}
+.nav .nav_tel{width: 240px; height: 36px; float: left;}
+.nav_tel p{line-height: 36px; background: url(../img/ind-tel.png) no-repeat left center; padding-left: 22px; font-size: 12px; color: #444444; float: left;}
+.nav_tel span{line-height: 36px; float: left; font-size: 10px; color: #E91456;}
+.nav p a{float: left; font-size: 12px; line-height: 36px;}
+.nav_right{float: right;}
+.nav_right i{display: inline-block; width: 18px; height: 18px; background: url(../img/ind-mobile.png); vertical-align: middle;}
+.nav_right a{font-size: 12px; line-height: 36px;}
+/*    guide    */
+.guide{overflow: hidden; margin: 10px auto 0;}
+.guide img{float: left;}
+.guide span{float: left; line-height: 74px; font-size: 16px; color: #444444; font-weight: 600;} 
+.guide span i{color: #c9c9c9; padding-right: 10px;}
+.guide .guide_right{float: right; background: url(../img/solid_x.png) no-repeat center; height: 74px;}
+.guide .guide_right span{display: inline-block; width: 130px; height: 30px; text-align: center; font-size: 12px; color: #444444; font-weight: normal; padding-top: 15px;}
+/*    commodity_list    */
+.commodity_list{margin-top: 30px; overflow: hidden;}
+.commodity_list .commodity_list_top{margin-bottom: 10px; overflow: hidden;}
+.commodity_list_top span{float: left; padding-left: 6px; font-size: 12px; color: #444444;}
+.commodity_list_top a{float: right; padding-right: 6px; font-size: 12px; color: #FF0000;}
+.commodity_list .commodity_list_body{border: 1px solid #C9C9C9;}
+.commodity_list_body .c_l_b_top ul{background: #eeeeee; border-bottom: 1px solid #c9c9c9; padding: 0 5px; height: 40px;}
+.c_l_b_top ul li{float: left; line-height: 40px; font-size: 12px; color: #444444;}
+.c_l_b_top ul .li_q{width: 252px; cursor: pointer;}  
+.c_l_b_top ul .li_s{width: 310px;}
+.c_l_b_top ul .li_d{width: 152px;}
+.c_l_b_top ul .li_s_1{width: 157px;}
+.c_l_b_top ul .li_j{width: 152px;}
+.c_l_b_top ul .li_c{width: 155px;}
+.commodity_list_body .c_l_b_middle{overflow: hidden;}
+.c_l_b_middle .hide{height: 150px; line-height: 150px; text-align: center;}
+.c_l_b_middle .list_holder{height: 190px; border-bottom: 1px solid #c9c9c9;}
+.c_l_b_middle .list_holder li{float: left;}
+.c_l_b_middle .list_holder .uli_1{width: 262px; height: 150px;}
+.list_holder .uli_1 .uli_1_box{margin: 63px 23px 0 5px; float: left;}
+.list_holder .uli_1 .uli_1_box span{display: block; width: 21px; height: 21px; line-height: 21px; font-size: 17px; font-weight: 700; color: #BABABA; border: 1px solid #BABABA; border-radius: 50%; cursor: pointer;}
+.list_holder .uli_1 a img{width: 150px; height: 150px; float: left;}
+.c_l_b_middle .list_holder .uli_2{width: 310px; margin-top: 15px;}
+.list_holder .uli_2 .li_p_1 a{font-size: 13px; line-height: 13px; font-weight: 700;}
+.list_holder .uli_2 .li_p_1 span{font-size: 13px; display: inline-block; color: #444444;}
+.list_holder .uli_2 .li_p_2 span{font-size: 13px; color: #444444;}
+.c_l_b_middle .list_holder .uli_3{width: 152px; line-height: 190px;}
+.c_l_b_middle .list_holder .uli_4{width: 152px;}
+.list_holder .uli_4 div{width: 24px; height: 24px; line-height: 24px; border-radius: 50%; font-size: 20px; color: #555555; background: #EEEEEE; text-align: center; font-weight: bold; margin-top: 82px; cursor: pointer;}
+.list_holder .uli_4 .minus{float: left;}
+.list_holder .uli_4 input{float: left; width: 45px; height: 22px; line-height: 22px; text-align: center; border: 1px solid #A9A9A9; margin: 0 10px; outline: none; margin-top: 81px;}
+.list_holder .uli_4 .add{float: left; margin-right: 5px;}
+.c_l_b_middle .list_holder .uli_5{width: 157px; line-height: 190px; color: #444444; font-weight: 700;}
+.c_l_b_middle .list_holder .uli_6{font-size: 13px; height: 30px; line-height: 15px; margin-top: 55px; cursor: pointer;}
+    
+.commodity_list .commodity_list_foot{height: 133px; border: 1px solid #C9C9C9; border-bottom: none; border-top: none;}
+.commodity_list_foot ul{height: 133px; background: #EEEEEE;}
+.commodity_list_foot ul li{font-size: 12px; color: #444444;}
+.commodity_list_foot ul .f_li_1{float: left; width: 562px; padding: 0 5px; height: 30px; line-height: 30px;}
+.f_li_1 .checkbox{float: left; margin: 9px 0 0 0;}
+.commodity_list_foot ul .f_li_1 .all{float: left; padding: 0 5px; margin-right: 5px;}
+.f_li_1 .delete{float: left; padding: 0 5px; margin-right: 5px; cursor: pointer;}
+.f_li_1 .empty{float: left; padding: 0 5px; cursor: pointer;}
+.commodity_list_foot ul .f_li_2{float: left; width: 157px; height: 120px; margin-left: 86px; font-size: 13px; line-height: 30px; color: #444444;}
+.commodity_list_foot ul .f_li_2 .total{color: #E91456; font-weight: 600;}
+
+.commodity_list_foot ul .f_li_3{float: left; width: 1px; margin: 1px 60px 0; height: 126px; border-left: 1px solid #c9c9c9;}
+.commodity_list_foot ul .f_li_4{float: right; width: 250px; height: 127px;}
+.f_li_4 .btn{width: 176px; height: 32px; border: 0; outline: none; line-height: 32px; background: #E21357; color: #FFFFFF; text-align: center; margin-top: 85px; font-size: 16px; cursor: pointer;}
+.f_li_4 .btn:hover{background: #cc1c23;}
+/*    like_whole    */
+.like_whole{margin-top: 20px; overflow: hidden;}
+.like_whole .like_whole_top{padding: 0 5px; margin-bottom: 10px; font-size: 14px; color: #444444;} 
+.like_whole .like_whole_bottom{border: 1px solid #E8E8E7; margin-bottom: 22px;}
+.like_whole_bottom ul{height: 366px;}  
+.like_whole_bottom ul .like_dress{width: 230px; height: 344px; padding: 10px 0; margin-left: 3px; float: left; border: 1px solid #FFFFFF;}
+.like_dress img{width: 230px; height: 230px; cursor: pointer;}
+.like_dress p{padding: 5px; font-size: 12px; color: #444444; height: 35px;}
+.like_dress span{display: block; height: 15px; padding: 5px; font-size: 10px; color: #EC1456;} 
+.like_dress a{display: inline-block; width: 75px; height: 30px; margin: 5px 5px 5px 64px; border: 1px solid #D0D0D0; font-size: 14px; color: #333333; padding: 0 12px; background: #F3F3F3; line-height: 30px;}    
+.like_dress a:hover{text-decoration: none; color: #333333; background: #E7E7E7;}
+
+
+
+
+
+
+
+

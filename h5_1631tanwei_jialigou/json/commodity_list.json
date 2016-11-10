@@ -1,0 +1,19 @@
+[
+{"title":"内衣",
+	"content":"<a href = '#'>文胸</a><a href = '#'>塑身</a><a href = '#'>睡衣</a><a href = '#'>家居服</a><a href = '#'>袜子</a><a href = '#'>套装</a><a href = '#'>内裤</a>"
+},{"title":"女装",
+	"content":"<a href = '#'>衬衫</a><a href = '#'>T恤</a><a href = '#'>针织</a><a href = '#'>外套</a><a href = '#'>羽绒服</a><a href = '#'>裙子</a><a href = '#'>女裤</a>"
+},{"title":"男装",
+	"content":"<a href = '#'>衬衫</a><a href = '#'>T恤</a><a href = '#'>针织外套</a><a href = '#'>羽绒服</a><a href = '#'>男裤</a>"	
+},{"title":"配饰",
+	"content":"<a href = '#'>眼镜</a><a href = '#'>围巾</a><a href = '#'>衣着配饰</a><a href = '#'>皮带</a>"	
+},{"title":"女鞋",
+	"content":"<a href = '#'>单鞋</a><a href = '#'>休闲鞋</a><a href = '#'>鞋子</a>"
+},{"title":"男鞋",
+	"content":"<a href = '#'>皮鞋</a><a href = '#'>休闲鞋</a><a href = '#'>凉鞋/沙滩鞋</a>"
+},{"title":"潮流包",
+	"content":"<a href = '#'>手拿包</a><a href = '#'>单肩包</a><a href = '#'>双肩包</a><a href = '#'>手提包</a><a href = '#'>斜挎包</a><a href = '#'>套组</a>"
+},{"title":"功能箱包",
+	"content":"<a href = '#'>拉杆箱</a><a href = '#'>钱包</a>"
+}		
+]	
